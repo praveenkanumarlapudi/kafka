@@ -23,8 +23,8 @@ public class PutElasticDemo {
     public static RestHighLevelClient CreateElasticRestClient(){
 
         String hostname = "kafka-twitter-poc-556813528.us-east-1.bonsaisearch.net"; // localhost or bonsai url
-        String username = "1pvp1ze414"; // needed only for bonsai
-        String password = "j0c81ge7nw"; // needed only for bonsai
+        String username = ""; // needed only for bonsai
+        String password = ""; // needed only for bonsai
 
         // credentials provider help supply username and password
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider ();
